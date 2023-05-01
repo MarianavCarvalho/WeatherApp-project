@@ -1,0 +1,107 @@
+.container{
+font-family: 'Poppins', sans-serif;
+margin: 50px auto 20px;
+padding: 0;
+
+}
+ .card{
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 600px;
+ }
+
+ .heading {
+     margin: 20px;
+
+ }
+
+ .city {
+     font-size: 30px;
+ }
+
+ .city-temperature {
+     text-align: right;
+     font-size: 30px;
+     display: inline;
+ }
+
+p {
+display: inline;
+}
+
+ .city-properties {
+     text-align: left;
+     padding: 0;
+     margin: 0;
+     font-size: 15px;
+ }
+
+
+ .city-temperature-variation {
+     text-align: right;
+     padding: 0;
+     margin: 0;
+     font-size: 15px;
+ }
+
+
+.monday-icon, .tuesday-icon, .friday-icon{
+    display: block;
+    font-size: 40px;
+    color: grey;
+    margin: 10px auto;
+}
+
+.thursday-icon, .wednesday-icon{
+    display: block;
+    font-size: 40px;
+    color: rgb(238, 242, 36);
+    margin: 10px auto;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.monday, .tuesday, .wednesday, .thursday, .friday {
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+
+h5{
+    font-size: 18px;
+}
+
+.cityForm{
+    display:inline;
+    width: 100%;
+}
+
+.form-control{
+    width: 480px;
+    display: inline;
+
+}
+
+input#search-button{
+    margin: 10px;
+}
+
+#current-button {
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        max-width: 100px;
+        padding: 5px 15px;
+        display: block;
+        margin: 10px auto;
+
+}
+
+footer{
+    text-align: center;
+}
+
